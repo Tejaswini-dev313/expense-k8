@@ -5,7 +5,7 @@ metadata:
   name: backend
   namespace: expense
 data:
-  DB_HOST: mydql
+  DB_HOST: mysql
 
 # backend deployment
 
