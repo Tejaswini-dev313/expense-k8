@@ -1,6 +1,6 @@
 # configmap
 apiVersion: v1
-kind: configmap
+kind: ConfigMap 
 metadata:
   name: backend
   namespace: expense
