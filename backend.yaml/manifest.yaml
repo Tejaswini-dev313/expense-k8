@@ -6,7 +6,7 @@ metadata:
   namespace: expense
 data:
   DB_HOST: mysql
-
+---
 # backend deployment
 
 apiVersion: apps/v1
@@ -40,6 +40,8 @@ spec:
         envFrom:
         - configMapRef:
             name: backend
+---
+
 # service
 
 kind: Service
